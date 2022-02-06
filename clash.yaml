@@ -5,247 +5,343 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ♥️♥️YouTube梦歌♥️♥️_827, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国, server: 141.164.57.134, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_257, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_602, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国, server: us3.nodrop.bike, port: 47891, type: vmess, uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: us3.nodrop.bike}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_190, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_437, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _AU_澳大利亚, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_603, server: 13.238.142.103, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _AU_澳大利亚 2, server: 192.53.168.189, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_845, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_834, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_269, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 2, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_855, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: _US_美国 3, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_676, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _BV_布维岛, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_74, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_19, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_818, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_415, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _FR_法国, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_266, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 5, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_94, server: 38.91.100.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_729, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 5, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 6, server: 38.68.134.23, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 7, server: 38.91.100.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 2, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 8, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 6, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_781, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 9, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_323, server: 167.88.61.14, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_311, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_148, server: 141.164.57.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_769, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_737, server: 139.162.24.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_290, server: 38.91.100.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_233, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_300, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 10, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_258, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_902, server: 123.lyzghim.com, port: 443, type: trojan, password: YSmrjN8GpxB2dL9Y, sni: 123.lyzghim.com, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_842, server: 134.195.196.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 11, server: 38.68.134.23, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 12, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_ |74.42Mb, server: china-gzyd-1.forwardserver.xyz, port: 36029, type: trojan, password: 36352-2-41419784784722, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31）, server: 185.212.59.105, port: 15228, type: trojan, password: WQXZyuplhL, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_190, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
+  - {name: JP |52.81Mb, server: 45.11.1.158, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _JP_日本, server: 45.11.1.158, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_716, server: g1.gs1024.com, port: 60298, type: vmess, uuid: e50cad5c-dcff-36cf-bb9a-6c4098ce48d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: g1.gs1024.com}, udp: true}
+  - {name: CYL-科技（2022.01.31） 2, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 9fd65683-3942-3dbf-be07-d2fcdff733f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.31） 3, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技-新年快乐, server: sqj.lyzghim.com, port: 443, type: trojan, password: yfkZlYd69wMTulQp, sni: sqj.lyzghim.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_816, server: wq199879.gq, port: 34321, type: vmess, uuid: 9e42e8b4-31ef-4c00-be7d-e23ee7aeafe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP |13.53Mb, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 4, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 38.68.134.190, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|17.02Mb", server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _SG_新加坡, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_65, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 2, server: 169.197.143.52, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 3, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |14.34Mb, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.31） 5, server: 38.143.66.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 4, server: 169.197.142.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|19.54Mb", server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US |14.74Mb, server: 38.114.114.69, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |12.81Mb, server: 167.88.61.175, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_美国_194, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.59Mb", server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|19.73Mb", server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 挪威*阿伟科技-新年快乐, server: 46.29.218.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇨🇳CN | 8.63Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "|19.36Mb", server: 38.68.134.190, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|19.79Mb", server: 38.68.134.190, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _DE_德国, server: 193.108.118.2, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 3, server: 198.57.27.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US |10.34Mb, server: 38.68.134.190, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_美国_150, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|19.75Mb", server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _DE_德国 2, server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_挪威_157, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CN | 5.73Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: Ytb:鹏哥分享_美国_48, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_美国_64, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 5, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |13.98Mb, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.214, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US |13.96Mb, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.33Mb", server: 38.68.134.190, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 6, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国 7, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|24.80Mb", server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US |12.85Mb, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3109+|52.32Mb, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|19.49Mb", server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_76, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA |11.20Mb, server: 198.57.27.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 8, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1923+|188.13Mb, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 9, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|16.85Mb", server: 142.202.48.58, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|18.85Mb", server: 198.57.27.247, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_英国_28, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |11.82Mb, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|17.59Mb", server: 158.247.208.102, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_美国_125, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_155, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_美国_192, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US |30.81Mb, server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|20.09Mb", server: 38.68.134.190, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US |30.64Mb, server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 7, server: 198.57.27.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_75, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_美国_123, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|20.70Mb", server: 198.57.27.200, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _NL_荷兰, server: 62.112.9.220, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP |53.72Mb, server: 45.11.1.158, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US |14.27Mb, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -264,62 +360,86 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -330,185 +450,257 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -524,62 +716,86 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️♥️YouTube梦歌♥️♥️_827
-      - _KR_韩国
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_257
-      - ♥️♥️YouTube梦歌♥️♥️_602
-      - _US_美国
-      - ♥️♥️YouTube梦歌♥️♥️_190
-      - ♥️♥️YouTube梦歌♥️♥️_437
-      - _AU_澳大利亚
-      - ♥️♥️YouTube梦歌♥️♥️_603
-      - _AU_澳大利亚 2
-      - ♥️♥️YouTube梦歌♥️♥️_845
-      - ♥️♥️YouTube梦歌♥️♥️_834
-      - ♥️♥️YouTube梦歌♥️♥️_269
-      - _US_美国 2
-      - ♥️♥️YouTube梦歌♥️♥️_855
-      - _US_美国 3
-      - ♥️♥️YouTube梦歌♥️♥️_676
-      - _BV_布维岛
-      - _CA_加拿大
-      - _CA_加拿大 2
-      - ♥️♥️YouTube梦歌♥️♥️_74
-      - _CA_加拿大 3
-      - ♥️♥️YouTube梦歌♥️♥️_19
-      - ♥️♥️YouTube梦歌♥️♥️_818
-      - ♥️♥️YouTube梦歌♥️♥️_415
-      - _CA_加拿大 4
-      - _FR_法国
       - ♥️♥️YouTube梦歌♥️♥️_266
+      - Relay_ |74.42Mb
+      - CYL-科技（2022.01.31）
+      - ♥️♥️YouTube梦歌♥️♥️_190
+      - JP |52.81Mb
+      - _JP_日本
+      - ♥️♥️YouTube梦歌♥️♥️_716
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - 美国阿伟科技-新年快乐
+      - ♥️♥️YouTube梦歌♥️♥️_816
+      - JP |13.53Mb
+      - CYL-科技（2022.01.31） 4
+      - _US_美国
+      - "|17.02Mb"
+      - _SG_新加坡
+      - _CA_加拿大
+      - Ytb:鹏哥分享_加拿大_65
+      - _US_美国 2
+      - _US_美国 3
+      - US |14.34Mb
+      - CYL-科技（2022.01.31） 5
       - _US_美国 4
+      - "|19.54Mb"
+      - US |14.74Mb
+      - US |12.81Mb
+      - Ytb:鹏哥分享_美国_194
+      - "|20.59Mb"
+      - "|19.73Mb"
+      - 挪威*阿伟科技-新年快乐
+      - Relay_🇨🇳CN | 8.63Mb
+      - "|19.36Mb"
+      - _CA_加拿大 2
+      - "|19.79Mb"
+      - _DE_德国
+      - _CA_加拿大 3
+      - US |10.34Mb
+      - Ytb:鹏哥分享_美国_150
+      - "|19.75Mb"
+      - _DE_德国 2
+      - Ytb:鹏哥分享_挪威_157
+      - CN | 5.73Mb
+      - Ytb:鹏哥分享_美国_48
+      - Ytb:鹏哥分享_美国_64
       - _US_美国 5
-      - ♥️♥️YouTube梦歌♥️♥️_94
-      - ♥️♥️YouTube梦歌♥️♥️_729
-      - _CA_加拿大 5
+      - US |13.98Mb
+      - _CA_加拿大 4
+      - US |13.96Mb
+      - "|20.33Mb"
       - _US_美国 6
       - _US_美国 7
-      - _FR_法国 2
+      - "|24.80Mb"
+      - US |12.85Mb
+      - ZZ_3109+|52.32Mb
+      - _CA_加拿大 5
+      - "|19.49Mb"
+      - Ytb:鹏哥分享_加拿大_76
+      - CA |11.20Mb
       - _US_美国 8
-      - _CA_加拿大 6
-      - ♥️♥️YouTube梦歌♥️♥️_781
+      - US_1923+|188.13Mb
       - _US_美国 9
-      - ♥️♥️YouTube梦歌♥️♥️_323
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - ♥️♥️YouTube梦歌♥️♥️_148
-      - ♥️♥️YouTube梦歌♥️♥️_769
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_290
-      - ♥️♥️YouTube梦歌♥️♥️_233
-      - ♥️♥️YouTube梦歌♥️♥️_300
+      - "|16.85Mb"
+      - _CA_加拿大 6
+      - "|18.85Mb"
+      - Ytb:鹏哥分享_英国_28
+      - US |11.82Mb
+      - "|17.59Mb"
+      - Ytb:鹏哥分享_美国_125
+      - Ytb:鹏哥分享_加拿大_155
+      - Ytb:鹏哥分享_美国_192
+      - US |30.81Mb
+      - "|20.09Mb"
+      - US |30.64Mb
       - _CA_加拿大 7
-      - _US_美国 10
-      - ♥️♥️YouTube梦歌♥️♥️_258
-      - ♥️♥️YouTube梦歌♥️♥️_902
-      - ♥️♥️YouTube梦歌♥️♥️_842
-      - _US_美国 11
-      - _US_美国 12
+      - Ytb:鹏哥分享_加拿大_75
+      - Ytb:鹏哥分享_美国_123
+      - "|20.70Mb"
+      - _NL_荷兰
+      - JP |53.72Mb
+      - US |14.27Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
