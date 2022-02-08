@@ -5,243 +5,303 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.01.31）, server: 185.212.59.105, port: 15228, type: trojan, password: WQXZyuplhL, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_240, server: 101.230.149.38, port: 32634, type: ss, cipher: aes-256-gcm, password: 22efb2e7-d417-4fb3-bfb7-9e62ac6aa038, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_207, server: g3.gs1024.com, port: 61765, type: vmess, uuid: e50cad5c-dcff-36cf-bb9a-6c4098ce48d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_586, server: 45.117.103.241, port: 54321, type: trojan, password: 8e075042-dd96-40f5-9bc9-dbe0478fdfad, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_716, server: g1.gs1024.com, port: 60298, type: vmess, uuid: e50cad5c-dcff-36cf-bb9a-6c4098ce48d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: g1.gs1024.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_206, server: g1.gs1024.com, port: 60198, type: vmess, uuid: e50cad5c-dcff-36cf-bb9a-6c4098ce48d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 2, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 9fd65683-3942-3dbf-be07-d2fcdff733f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_242, server: 129.154.55.137, port: 54321, type: trojan, password: 8e075042-dd96-40f5-9bc9-dbe0478fdfad, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_767, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-tw-a-01.xncloud.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_733, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技-新年快乐, server: sqj.lyzghim.com, port: 443, type: trojan, password: yfkZlYd69wMTulQp, sni: sqj.lyzghim.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 169.197.143.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2127, server: cn2.unicorntech.shop, port: 17676, type: ss, cipher: aes-256-gcm, password: 22efb2e7-d417-4fb3-bfb7-9e62ac6aa038, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1545, server: cu.cnhost.top, port: 16617, type: vmess, uuid: 410b2bc3-0864-43aa-b64c-19fd454c4da7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.cnhost.top}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2341, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tjp, ws-headers: {Host: czlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1214, server: gtm.cnhost.top, port: 16617, type: vmess, uuid: 410b2bc3-0864-43aa-b64c-19fd454c4da7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.cnhost.top}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2343, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tjp, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1145, server: cu.cnhost.top, port: 16619, type: vmess, uuid: 410b2bc3-0864-43aa-b64c-19fd454c4da7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.cnhost.top}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1102, server: cm.cnhost.top, port: 16619, type: vmess, uuid: 410b2bc3-0864-43aa-b64c-19fd454c4da7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2135, server: az.xiaoyizi.in, port: 10096, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2078, server: az.xiaoyizi.in, port: 10093, type: ss, cipher: aes-256-gcm, password: e4e53d0f-5c72-4499-a577-f35f160a885f, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2134, server: az.xiaoyizi.in, port: 10093, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2339, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tsg, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2077, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: e4e53d0f-5c72-4499-a577-f35f160a885f, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2337, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tsg, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2338, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tsg, ws-headers: {Host: czlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1110, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1294, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1192, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1357, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1826, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1865, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1201, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1225, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1380, server: hgcc.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgcc.jgw.tgproxy.wtf}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1095, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2368, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 5f40b7b5-2a28-44d5-88f8-7fb8ffd927ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1151, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_774, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1386, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_596, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_490, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_188, server: 218.190.242.130, port: 443, type: trojan, password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1153, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1310, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_779, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2226, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1756, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 12c49759-c4f2-44d1-bce0-728bda42f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1882, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1039, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_266, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_774, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_703, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_726, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
-  - {name: _GB_英国, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_202, server: 44.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 44.moons.team, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_103, server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_571, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ |12.61Mb, server: 134.195.196.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_573, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_837, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_210, server: us.gs1024.com, port: 60775, type: vmess, uuid: e50cad5c-dcff-36cf-bb9a-6c4098ce48d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_32, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.31） 3, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_80, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_821, server: 198.57.27.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_773, server: ceraus.moonfree.top, port: 443, type: vmess, uuid: a929040e-c97f-4ca5-bf40-f075252aea82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cerus.moonfree.top}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_133, server: 198.57.27.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _IN_印度, server: 172.104.207.231, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Relay_🇨🇳CN | 8.63Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: "|18.52Mb", server: 169.197.142.48, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 2, server: 169.197.143.52, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.31） 4, server: 38.143.66.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 新加坡阿伟科技-新年快乐, server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN |11.85Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_751, server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|15.33Mb", server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_794, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|19.75Mb", server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 3, server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|17.59Mb", server: 158.247.208.102, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_321, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US |10.34Mb, server: 38.68.134.190, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|18.40Mb", server: 38.75.137.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_746, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_143, server: 142.202.48.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_530, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2335, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tde, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_19, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 12c49759-c4f2-44d1-bce0-728bda42f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2350, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tus, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2333, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tde, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1941, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1914, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 12c49759-c4f2-44d1-bce0-728bda42f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2347, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tau, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2336, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tde, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2355, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tuk, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2334, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tde, ws-headers: {Host: czlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_675, server: 194.15.196.70, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2349, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tus, ws-headers: {Host: czlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_93, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 5f40b7b5-2a28-44d5-88f8-7fb8ffd927ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_767, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-tw-a-01.xncloud.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2353, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tuk, ws-headers: {Host: czlt.tuboshu.space}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2345, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tau, ws-headers: {Host: czlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2344, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tau, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_316, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1630, server: 198.57.27.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2351, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tus, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2352, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tuk, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2354, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tuk, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1828, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 5f40b7b5-2a28-44d5-88f8-7fb8ffd927ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_255, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_2346, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tau, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1634, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 12c49759-c4f2-44d1-bce0-728bda42f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1954, server: 38.91.100.134, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1822, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1902, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 12c49759-c4f2-44d1-bce0-728bda42f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,61 +320,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -325,182 +400,227 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -516,61 +636,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.01.31）
-      - ♥️♥️YouTube梦歌♥️♥️_240
-      - ♥️♥️YouTube梦歌♥️♥️_207
-      - ♥️♥️YouTube梦歌♥️♥️_586
-      - ♥️♥️YouTube梦歌♥️♥️_716
-      - ♥️♥️YouTube梦歌♥️♥️_206
-      - CYL-科技（2022.01.31） 2
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - ♥️♥️YouTube梦歌♥️♥️_767
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - 美国阿伟科技-新年快乐
-      - _US_美国
+      - ♥️♥️YouTube梦歌♥️♥️_2127
+      - ♥️♥️YouTube梦歌♥️♥️_1545
+      - ♥️♥️YouTube梦歌♥️♥️_2341
+      - ♥️♥️YouTube梦歌♥️♥️_1214
+      - ♥️♥️YouTube梦歌♥️♥️_2343
+      - ♥️♥️YouTube梦歌♥️♥️_1145
+      - ♥️♥️YouTube梦歌♥️♥️_1102
+      - ♥️♥️YouTube梦歌♥️♥️_2135
+      - ♥️♥️YouTube梦歌♥️♥️_2078
+      - ♥️♥️YouTube梦歌♥️♥️_2134
+      - ♥️♥️YouTube梦歌♥️♥️_2339
+      - ♥️♥️YouTube梦歌♥️♥️_2077
+      - ♥️♥️YouTube梦歌♥️♥️_2337
+      - ♥️♥️YouTube梦歌♥️♥️_2338
+      - ♥️♥️YouTube梦歌♥️♥️_1110
+      - ♥️♥️YouTube梦歌♥️♥️_1294
+      - ♥️♥️YouTube梦歌♥️♥️_1192
+      - ♥️♥️YouTube梦歌♥️♥️_1357
+      - ♥️♥️YouTube梦歌♥️♥️_1826
+      - ♥️♥️YouTube梦歌♥️♥️_1865
+      - ♥️♥️YouTube梦歌♥️♥️_1201
+      - ♥️♥️YouTube梦歌♥️♥️_1225
+      - ♥️♥️YouTube梦歌♥️♥️_1380
+      - ♥️♥️YouTube梦歌♥️♥️_1095
+      - ♥️♥️YouTube梦歌♥️♥️_2368
+      - ♥️♥️YouTube梦歌♥️♥️_1151
+      - ♥️♥️YouTube梦歌♥️♥️_774
+      - ♥️♥️YouTube梦歌♥️♥️_1386
       - ♥️♥️YouTube梦歌♥️♥️_596
       - ♥️♥️YouTube梦歌♥️♥️_490
-      - ♥️♥️YouTube梦歌♥️♥️_188
+      - 美国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_1153
+      - ♥️♥️YouTube梦歌♥️♥️_1310
+      - ♥️♥️YouTube梦歌♥️♥️_779
+      - ♥️♥️YouTube梦歌♥️♥️_2226
+      - ♥️♥️YouTube梦歌♥️♥️_1756
+      - ♥️♥️YouTube梦歌♥️♥️_1882
+      - ♥️♥️YouTube梦歌♥️♥️_1039
       - ♥️♥️YouTube梦歌♥️♥️_266
-      - ♥️♥️YouTube梦歌♥️♥️_774
-      - ♥️♥️YouTube梦歌♥️♥️_703
-      - ♥️♥️YouTube梦歌♥️♥️_726
-      - _GB_英国
-      - ♥️♥️YouTube梦歌♥️♥️_202
-      - _GB_英国 2
-      - ♥️♥️YouTube梦歌♥️♥️_103
-      - ♥️♥️YouTube梦歌♥️♥️_571
-      - ZZ |12.61Mb
-      - ♥️♥️YouTube梦歌♥️♥️_573
-      - _FR_法国
-      - ♥️♥️YouTube梦歌♥️♥️_837
-      - ♥️♥️YouTube梦歌♥️♥️_210
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - CYL-科技（2022.01.31） 3
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_821
-      - ♥️♥️YouTube梦歌♥️♥️_773
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - _GB_英国 3
-      - _IN_印度
-      - Relay_🇨🇳CN | 8.63Mb
-      - "|18.52Mb"
-      - _US_美国 2
-      - CYL-科技（2022.01.31） 4
-      - 新加坡阿伟科技-新年快乐
-      - Relay_🇨🇳CN |11.85Mb
-      - ♥️♥️YouTube梦歌♥️♥️_751
-      - "|15.33Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_794
-      - "|19.75Mb"
-      - _US_美国 3
-      - "|17.59Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_321
-      - US |10.34Mb
-      - "|18.40Mb"
-      - ♥️♥️YouTube梦歌♥️♥️_746
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️YouTube梦歌♥️♥️_530
+      - ♥️♥️YouTube梦歌♥️♥️_2335
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_2350
+      - ♥️♥️YouTube梦歌♥️♥️_2333
+      - ♥️♥️YouTube梦歌♥️♥️_1941
+      - ♥️♥️YouTube梦歌♥️♥️_1914
+      - ♥️♥️YouTube梦歌♥️♥️_2347
+      - ♥️♥️YouTube梦歌♥️♥️_2336
+      - ♥️♥️YouTube梦歌♥️♥️_2355
+      - 美国阿伟科技@TG/油管 2
+      - ♥️♥️YouTube梦歌♥️♥️_2334
+      - ♥️♥️YouTube梦歌♥️♥️_675
+      - ♥️♥️YouTube梦歌♥️♥️_2349
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_767
+      - ♥️♥️YouTube梦歌♥️♥️_2353
+      - 美国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_2345
+      - ♥️♥️YouTube梦歌♥️♥️_2344
+      - ♥️♥️YouTube梦歌♥️♥️_316
+      - ♥️♥️YouTube梦歌♥️♥️_1630
+      - ♥️♥️YouTube梦歌♥️♥️_2351
+      - ♥️♥️YouTube梦歌♥️♥️_2352
+      - ♥️♥️YouTube梦歌♥️♥️_2354
+      - ♥️♥️YouTube梦歌♥️♥️_1828
+      - ♥️♥️YouTube梦歌♥️♥️_255
+      - ♥️♥️YouTube梦歌♥️♥️_2346
+      - ♥️♥️YouTube梦歌♥️♥️_1634
+      - ♥️♥️YouTube梦歌♥️♥️_1954
+      - ♥️♥️YouTube梦歌♥️♥️_1822
+      - ♥️♥️YouTube梦歌♥️♥️_1902
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
