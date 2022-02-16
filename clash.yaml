@@ -5,255 +5,303 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_544 |36.03Mb, server: 18.163.100.227, port: 37581, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049, udp: true}
-  - {name: US_1873 |35.63Mb, server: 16.163.107.240, port: 39817, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049, udp: true}
   - {name: Relay_ |24.06Mb, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
   - {name: Relay_ | 6.64Mb, server: h4r.centaur.network, port: 16801, type: trojan, password: 134b2dad-1ba4-49f6-a8b8-721525213356, sni: h4r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_378, server: gz2.52168.xyz, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_ |16.56Mb, server: zjcm.relay.qchwnd.moe, port: 44602, type: trojan, password: b4771958-2759-4577-b2f2-c9fb315d5cef, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |25.14Mb, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_ |29.78Mb, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_760, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇺HU_350, server: 120.232.193.101, port: 44818, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_381, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: CYL-科技（2022.02.13）, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_ |18.40Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |14.53Mb, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
-  - {name: Relay_ | 7.51Mb, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: AU_31 |51.34Mb, server: 52.65.254.157, port: 53271, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049, udp: true}
-  - {name: _FR_法国, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: FR_455 |24.20Mb, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
-  - {name: Relay_ |12.44Mb, server: 56789.gq, port: 443, type: trojan, password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3, sni: 56789.gq, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.02.13） 2, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |25.52Mb, server: n200.centaur.network, port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: n200.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.02.08）, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_353, server: 120.232.193.101, port: 44825, type: ss, cipher: aes-128-gcm, password: 96a8a81d-6180-48ae-aef0-0214c1e7e2ac, udp: true}
-  - {name: _FR_法国 2, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR_399 |26.39Mb, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR_550, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|12.39Mb", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: FR_422 |28.30Mb, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_ |26.20Mb, server: n150.centaur.network, port: 8082, type: trojan, password: a00a413d-85f2-4b72-a396-b96e1b3d11a6, sni: n150.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: aws-us-3.xc163.ml, port: 443, type: trojan, password: ZzgkJ2oWtL, sni: aws-us-3.xc163.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: aws-us-2.xc163.ml, port: 443, type: trojan, password: gyNQcLqw14, sni: aws-us-2.xc163.ml, skip-cert-verify: true, udp: true}
-  - {name: US_2086 |21.71Mb, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_553, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_380, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _FR_法国 3, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR_398 |27.96Mb, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _FR_法国 4, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_527, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.02.13） 3, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 5, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_518, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_527 2, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_636, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_93, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Ytb:鹏哥分享_英国_22, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1359 |21.29Mb, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_2096 |12.50Mb, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2061 |24.87Mb, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_278, server: 172.99.190.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: FR_395 |28.32Mb, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: US_2097 |15.29Mb, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: HK_712, server: 93.179.125.232, port: 21167, type: ss, cipher: aes-128-gcm, password: Misaka, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_362, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: Relay_ |42.05Mb, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_808, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_283, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: JP_755 |212.95Mb, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp10.holiganfan.com, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_558, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_英国_20, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_ |18.40Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |25.52Mb, server: n200.centaur.network, port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: n200.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: FR_422 |28.30Mb, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1020 |32.52Mb, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_ |26.20Mb, server: n150.centaur.network, port: 8082, type: trojan, password: a00a413d-85f2-4b72-a396-b96e1b3d11a6, sni: n150.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: US_1033 |30.12Mb, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_ |12.44Mb, server: 56789.gq, port: 443, type: trojan, password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3, sni: 56789.gq, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1992, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1032 |30.22Mb, server: 38.86.135.36, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1006 |30.42Mb, server: 38.86.135.36, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR_563, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1002 |30.19Mb, server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1004 |30.86Mb, server: 38.86.135.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1031 |28.02Mb, server: 38.86.135.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1008 |30.11Mb, server: 38.86.135.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1012 |29.20Mb, server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1007 |28.81Mb, server: 38.86.135.36, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1627 |28.89Mb, server: 38.86.135.36, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1625 |30.94Mb, server: 38.86.135.36, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2732, server: us-am11.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: CYL-科技（2022.02.13）, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1029 |28.43Mb, server: 38.86.135.36, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1009 |30.75Mb, server: 38.86.135.36, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1010 |27.84Mb, server: 38.86.135.36, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1019 |27.82Mb, server: 38.86.135.36, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1013 |31.40Mb, server: 38.86.135.36, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: aws-us-3.xc163.ml, port: 443, type: trojan, password: ZzgkJ2oWtL, sni: aws-us-3.xc163.ml, skip-cert-verify: true, udp: true}
+  - {name: US_1003 |31.01Mb, server: 38.86.135.36, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1022 |29.70Mb, server: 38.86.135.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1011 |31.13Mb, server: 38.86.135.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1014 |30.86Mb, server: 38.86.135.36, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR_455 |24.20Mb, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_636, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1447, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_62, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1015 |16.48Mb, server: 38.86.135.36, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1030 |16.32Mb, server: 38.86.135.36, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1005 |16.33Mb, server: 38.86.135.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2848 |10.00Mb, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 172.99.190.205:443, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1302 |23.22Mb, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_2086 |21.71Mb, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: FR_398 |27.96Mb, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1472, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1150, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_760, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1107, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2061 |24.87Mb, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1359 |21.29Mb, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_1545, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: ZZ_2573 | 8.06Mb, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2619 | 7.05Mb, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR_550, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_法国_146, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1151 |22.84Mb, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_183, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1649, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_45, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2311, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_2315, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -272,64 +320,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -340,191 +400,227 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -540,64 +636,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_544 |36.03Mb
-      - US_1873 |35.63Mb
       - Relay_ |24.06Mb
       - Relay_ | 6.64Mb
-      - Relay_🇨🇳CN-🇩🇪DE_378
-      - Relay_ |16.56Mb
-      - Relay_ |25.14Mb
-      - Relay_ |29.78Mb
-      - ♥️♥️YouTube梦歌♥️♥️_760
-      - Relay_🇨🇳CN-🇺🇸US_295 |11.58Mb
-      - Relay_🇨🇳CN-🇭🇺HU_350
-      - Relay_🇨🇳CN-🇩🇪DE_381
-      - CYL-科技（2022.02.13）
-      - Relay_ |18.40Mb
-      - Relay_ |14.53Mb
-      - Relay_ | 7.51Mb
-      - AU_31 |51.34Mb
-      - _FR_法国
-      - FR_455 |24.20Mb
-      - Relay_🇨🇳CN-🇭🇺HU_272 | 8.29Mb
-      - Relay_ |12.44Mb
-      - CYL-科技（2022.02.13） 2
-      - Relay_ |25.52Mb
-      - CYL-科技（2022.02.08）
-      - Relay_🇨🇳CN-🇬🇧GB_353
-      - _FR_法国 2
-      - FR_399 |26.39Mb
-      - FR_550
-      - "|12.39Mb"
-      - FR_422 |28.30Mb
-      - Relay_ |26.20Mb
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - US_2086 |21.71Mb
-      - FR_553
-      - ♥️♥️YouTube梦歌♥️♥️_380
-      - _FR_法国 3
-      - FR_398 |27.96Mb
-      - _FR_法国 4
-      - ♥️♥️YouTube梦歌♥️♥️_527
-      - CYL-科技（2022.02.13） 3
-      - _FR_法国 5
-      - FR_518
-      - ♥️♥️YouTube梦歌♥️♥️_527 2
-      - ♥️♥️YouTube梦歌♥️♥️_636
-      - Ytb:鹏哥分享_加拿大_93
-      - Ytb:鹏哥分享_英国_22
-      - US_1359 |21.29Mb
-      - US_2096 |12.50Mb
-      - US_2061 |24.87Mb
-      - ♥️♥️YouTube梦歌♥️♥️_278
-      - FR_395 |28.32Mb
-      - Relay_🇨🇳CN-🇸🇬SG_279 | 8.46Mb
-      - US_2097 |15.29Mb
+      - HK_712
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - Relay_ |42.05Mb
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇨🇳CN-🇳🇱NL_280 |17.32Mb
+      - JP_755 |212.95Mb
       - ♥️♥️YouTube梦歌♥️♥️_558
-      - Ytb:鹏哥分享_英国_20
+      - Relay_ |18.40Mb
+      - Relay_ |25.52Mb
+      - FR_422 |28.30Mb
+      - US_1020 |32.52Mb
+      - Relay_ |26.20Mb
+      - US_1033 |30.12Mb
+      - Relay_ |12.44Mb
+      - Relay_🇺🇸US-🇺🇸US_1992
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - FR_563
+      - US_1002 |30.19Mb
+      - US_1004 |30.86Mb
+      - US_1031 |28.02Mb
+      - US_1008 |30.11Mb
+      - US_1012 |29.20Mb
+      - US_1007 |28.81Mb
+      - US_1627 |28.89Mb
+      - US_1625 |30.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2732
+      - CYL-科技（2022.02.13）
+      - US_1029 |28.43Mb
+      - US_1009 |30.75Mb
+      - US_1010 |27.84Mb
+      - US_1019 |27.82Mb
+      - _FR_法国
+      - US_1013 |31.40Mb
+      - 美国阿伟科技@TG/油管
+      - US_1003 |31.01Mb
+      - US_1022 |29.70Mb
+      - US_1011 |31.13Mb
+      - US_1014 |30.86Mb
+      - FR_455 |24.20Mb
+      - ♥️♥️YouTube梦歌♥️♥️_636
+      - US_1447
+      - Ytb:鹏哥分享_加拿大_62
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - US_1005 |16.33Mb
+      - ZZ_2848 |10.00Mb
+      - 172.99.190.205:443
+      - US_1302 |23.22Mb
+      - US_2086 |21.71Mb
+      - FR_398 |27.96Mb
+      - US_1472
+      - US_1150
+      - ♥️♥️YouTube梦歌♥️♥️_760
+      - US_1107
+      - US_2061 |24.87Mb
+      - US_1359 |21.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_1545
       - ZZ_2573 | 8.06Mb
-      - ZZ_2619 | 7.05Mb
+      - FR_550
+      - Ytb:鹏哥分享_法国_146
+      - US_1151 |22.84Mb
+      - Ytb:鹏哥分享_加拿大_183
+      - US_1649
+      - Ytb:鹏哥分享_加拿大_45
+      - ZZ_2311
+      - ZZ_2315
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
