@@ -5,263 +5,419 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_325, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: HK_107, server: 5.vpnbro.ml, port: 6666, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |46.45Mb, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: HK_106, server: 2.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_86, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_353, server: 139.226.151.52, port: 17290, type: ss, cipher: chacha20-ietf-poly1305, password: 787deac4-2943-459f-9ec2-325aba8c4df0, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_327, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_392, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_ |61.97Mb, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: Relay_ |19.32Mb, server: tw.v2ssvps.com, port: 60763, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tw.v2ssvps.com}, udp: true}
+  - {name: 日本伟科技@TG/油管, server: 45.142.166.15, port: 48919, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |49.77Mb, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp10.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: HK_107, server: 5.vpnbro.ml, port: 6666, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_325, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
   - {name: Relay_ |54.37Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: EE_453 |18.88Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2060+|85.57Mb, server: 172.99.190.205, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2761, server: 38.75.136.127, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 澳大利亚阿伟科技@TG/油管, server: 217.138.204.202, port: 443, type: vmess, uuid: fa1eff46-f454-42d9-b881-90a102d5521d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: FR_238, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_英国_173, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_法国_25, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_英国_18, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1926, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1992, server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_英国_24, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_56, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _58 | 9.34Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: ZZ_2447, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1810, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2047+|137.20Mb, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: FR_719+|17.84Mb, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_英国_45, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _66 |10.68Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_49, server: t1.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_英国_67, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: HK_108, server: 3.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: "|17.95Mb", server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2863+|99.84Mb, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Ytb:鹏哥分享_英国_13, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: FR_272, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: FR_294, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Earth_213, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_英国_71, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_374, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_487, server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR_233, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: "| 6.74Mb", server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_2318, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_246, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: FR_266, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: w_1461+2, server: 193.108.117.24, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_ |45.02Mb, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v.mumi.bid}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_356, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: w_1471+2, server: 193.108.117.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_369, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_257, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_97, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: w_1462+2, server: 193.108.117.24, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_437, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Earth_150, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|21.74Mb", server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: w_14+9, server: 172.99.190.87, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_233, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(w)+42, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Ytb:鹏哥分享_德国_239, server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk, udp: true}
+  - {name: ZZ_2447, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_65, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1974 |18.63Mb, server: 38.75.136.127, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_410, server: 172.99.190.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_英国_67, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR_58, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_英国_168, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_ |16.63Mb, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: US_400, server: 172.99.190.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_2215, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_英国_152, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_389, server: 172.99.190.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_548, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_397, server: 14.152.92.80, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: US_1926, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_英国_171, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_英国_45, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: w_138+5, server: 172.99.190.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Earth_144, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK_108, server: 3.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: US_499, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: FR_278, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|13.91Mb", server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2236, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_400, server: 42.157.195.239, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Ytb:鹏哥分享_英国_29, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_487, server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_399, server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_404, server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_393, server: 42.157.195.235, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_395, server: 42.157.195.231, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_402, server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Earth_182, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_386, server: 42.157.195.240, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_398, server: 14.152.92.70, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_403, server: 42.157.195.238, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: US_1992, server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_394, server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: US_357, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_英国_13, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_572, server: 172.99.190.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_389, server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Ytb:鹏哥分享_法国_25, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大w_173+2, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_563, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: FR_270, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE_87, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: Ytb:鹏哥分享_英国_18, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_93, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CN_31, server: hz.pbaplink.xyz, port: 47769, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: hz.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: w_1027+2, server: 134.195.196.193, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_282, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_368, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_553, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|13.73Mb", server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大w_117, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_401, server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Earth_186, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: w_150+6, server: 172.99.190.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_56, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_460, server: 172.99.190.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_ | 9.05Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: US_411, server: 172.99.190.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_英国_173, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: US_2838+|91.55Mb, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_英国_22, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2532+|29.56Mb, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_2041+|152.88Mb, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_英国_33, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_262 |20.97Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_405, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Ytb:鹏哥分享_法国_16, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_37, server: hz.pbaplink.xyz, port: 47772, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: hz.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: ZZ_2441, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1902, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2535+|56.96Mb, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2394+|46.16Mb, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2309, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_682+|51.46Mb, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_36, server: t3.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: ZZ_3484+|20.90Mb, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_65, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: AU_95 | 0.67Mb, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Ytb:鹏哥分享_英国_11, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_60, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -280,66 +436,105 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -350,197 +545,314 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -556,66 +868,105 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_325
-      - HK_107
-      - Relay_ |46.45Mb
-      - HK_106
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇨🇳CN-🇺🇸US_353
       - Relay_🇨🇳CN-🇭🇰HK_327
-      - Relay_🇨🇳CN-🇬🇧GB_392
+      - Relay_ |61.97Mb
+      - Relay_ |19.32Mb
+      - 日本伟科技@TG/油管
+      - Relay_ |49.77Mb
+      - HK_107
+      - Relay_🇨🇳CN-🇭🇰HK_325
       - Relay_ |54.37Mb
       - EE_453 |18.88Mb
-      - US_2060+|85.57Mb
+      - US_2761
+      - 澳大利亚阿伟科技@TG/油管
       - FR_238
-      - Ytb:鹏哥分享_英国_173
-      - Ytb:鹏哥分享_法国_25
-      - Ytb:鹏哥分享_英国_18
-      - US_1926
-      - US_1992
-      - Ytb:鹏哥分享_英国_24
-      - Ytb:鹏哥分享_加拿大_56
-      - _58 | 9.34Mb
-      - ZZ_2447
-      - US_1810
-      - US_2047+|137.20Mb
-      - FR_719+|17.84Mb
-      - Ytb:鹏哥分享_英国_45
-      - _66 |10.68Mb
-      - Ytb:鹏哥分享_加拿大_49
-      - Ytb:鹏哥分享_英国_67
-      - HK_108
-      - "|17.95Mb"
-      - US_2863+|99.84Mb
-      - Ytb:鹏哥分享_英国_13
+      - Relay_🇨🇳CN-🇹🇼TW_310 |233.60Mb
+      - FR_272
       - FR_294
-      - Earth_213
-      - Ytb:鹏哥分享_英国_71
-      - US_374
-      - US_487
-      - FR_233
       - "| 6.74Mb"
-      - ZZ_2318
-      - FR_246
+      - FR_266
+      - w_1461+2
+      - Relay_ |45.02Mb
+      - Relay_🇨🇳CN-🇺🇸US_356
+      - w_1471+2
+      - US_369
+      - FR_257
+      - JP_97
+      - w_1462+2
+      - US_437
+      - Earth_150
+      - "|21.74Mb"
+      - w_14+9
+      - FR_233
+      - 欧洲(w)+42
+      - Ytb:鹏哥分享_德国_239
+      - ZZ_2447
+      - US_65
+      - US_1974 |18.63Mb
+      - US_410
+      - Ytb:鹏哥分享_英国_67
+      - FR_58
+      - Ytb:鹏哥分享_英国_168
+      - Relay_ |16.63Mb
+      - US_400
+      - US_2215
+      - Ytb:鹏哥分享_英国_152
+      - US_389
+      - US_548
+      - Relay_🇨🇳CN-🇯🇵JP_397
+      - US_1926
+      - Ytb:鹏哥分享_英国_171
+      - Ytb:鹏哥分享_英国_45
+      - w_138+5
+      - Earth_144
+      - HK_108
+      - US_499
+      - FR_278
+      - "|13.91Mb"
+      - US_2236
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Ytb:鹏哥分享_英国_29
+      - US_487
+      - Relay_🇨🇳CN-🇯🇵JP_399
+      - Relay_🇨🇳CN-🇯🇵JP_404
+      - Relay_🇨🇳CN-🇺🇸US_393
+      - Relay_🇨🇳CN-🇺🇸US_395
+      - Relay_🇨🇳CN-🇺🇸US_402
+      - Earth_182
+      - Relay_🇨🇳CN-🇺🇸US_386
+      - Relay_🇨🇳CN-🇺🇸US_398
+      - Relay_🇨🇳CN-🇺🇸US_403
+      - US_1992
+      - Relay_🇨🇳CN-🇺🇸US_394
+      - US_357
+      - Ytb:鹏哥分享_英国_13
+      - US_572
+      - Relay_🇨🇳CN-🇯🇵JP_389
+      - Ytb:鹏哥分享_法国_25
+      - 加拿大w_173+2
+      - US_563
+      - FR_270
+      - DE_87
+      - Ytb:鹏哥分享_英国_18
+      - Ytb:鹏哥分享_加拿大_93
+      - CN_31
+      - w_1027+2
+      - FR_282
+      - US_368
+      - US_553
+      - "|13.73Mb"
+      - 加拿大w_117
+      - Relay_🇨🇳CN-🇺🇸US_401
+      - Earth_186
+      - w_150+6
+      - Ytb:鹏哥分享_加拿大_56
+      - US_460
+      - Relay_ | 9.05Mb
+      - US_411
+      - Ytb:鹏哥分享_英国_173
       - US_2838+|91.55Mb
-      - Ytb:鹏哥分享_英国_22
-      - US_2532+|29.56Mb
-      - US_2041+|152.88Mb
-      - Ytb:鹏哥分享_英国_33
-      - CA_262 |20.97Mb
-      - US_405
-      - Ytb:鹏哥分享_法国_16
-      - CN_37
-      - ZZ_2441
-      - US_1902
-      - US_2535+|56.96Mb
-      - US_2394+|46.16Mb
-      - ZZ_2309
-      - FR_682+|51.46Mb
-      - CA_36
-      - ZZ_3484+|20.90Mb
-      - Ytb:鹏哥分享_加拿大_65
-      - AU_95 | 0.67Mb
-      - Ytb:鹏哥分享_英国_11
-      - Ytb:鹏哥分享_加拿大_60
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
