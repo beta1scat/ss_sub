@@ -5,423 +5,423 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港阿伟科技@TG/油管, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_791 |212.95Mb, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp10.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_438, server: 120.233.10.182, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
   - {name: Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_131, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_264, server: 120.232.173.35, port: 10000, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_78, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇭🇰HK_2872, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: 3.35.206.85, port: 8080, type: vmess, uuid: 0f4cc193-ea7c-497c-859b-4e1bf4617fed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 3.35.206.85}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_2790, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_257, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_227, server: 120.233.10.182, port: 4000, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_134, server: jp-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 2, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-tw-a-01.xncloud.xyz}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 3, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-tw-a-01.xncloud.xyz}, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管, server: 5.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 5.earths.team, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_18, server: in05.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: 3.112.20.77, port: 8080, type: vmess, uuid: 0f4cc193-ea7c-497c-859b-4e1bf4617fed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 3.112.20.77}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_74, server: in05.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: w 390, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
   - {name: EE_427 | 8.81Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |10.24Mb, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_429, server: 120.233.10.182, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: JP_787 |291.38Mb, server: 2.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 2.earths.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |45.47Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_385, server: 120.233.10.182, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_417, server: 120.233.10.182, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: JP_785 |205.29Mb, server: 1.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 1.earths.team, skip-cert-verify: true, udp: true}
-  - {name: "| 6.14Mb", server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇴RO_439, server: 120.233.10.182, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_447, server: 120.233.10.182, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_452, server: 120.233.10.182, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_432, server: 120.233.10.182, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_ |53.37Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_421, server: 120.233.10.182, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_445, server: 120.233.10.182, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_444, server: 120.233.10.182, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_430, server: 120.233.10.182, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_454, server: 120.233.10.182, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_441, server: 120.233.10.182, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇸🇬SG-🇩🇪DE_826, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: US_2781, server: 172.99.190.188, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_384, server: 120.233.10.182, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_415, server: 120.233.10.182, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: US_2846, server: 172.99.190.188, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: w+277, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: w+99, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇸🇬SG-🇬🇧GB_822, server: azhk.relay.qchwnd.moe, port: 10217, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: FR_237, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
-  - {name: w+355, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: w+140, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 4, server: tunnel-tw-a-01.xncloud.xyz, port: 502, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-tw-a-01.xncloud.xyz}, udp: true}
   - {name: w_15, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2807, server: 172.99.190.188, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 印度阿伟科技@TG/油管, server: in02.holiganfan.com, port: 10088, type: trojan, password: 15fd980c-edec-44ec-b5fd-d9b2061dba88, sni: in02.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_442, server: 120.233.10.182, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: _70 |24.62Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_2849, server: 172.99.190.188, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2847, server: 172.99.190.188, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|19.34Mb", server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2741, server: 172.99.190.188, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_411, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_330, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: TW_340, server: 210.241.243.8, port: 8329, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_1274, server: 5.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 5.earths.team, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_268, server: 120.232.173.35, port: 10051, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_83, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_684, server: jp-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp-group-a-direct.node001.xyz}, udp: true}
+  - {name: Relay_ |53.37Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_31, server: 183.240.2.6, port: 10050, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: 183.240.2.6}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_67, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_421, server: 120.233.10.182, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
   - {name: Relay_ |46.62Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_424, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: w+344, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_99, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_225, server: 120.233.10.182, port: 4002, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_267, server: 120.232.173.35, port: 10010, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_445, server: 120.233.10.182, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_415, server: 120.233.10.182, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_384, server: 120.233.10.182, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
+  - {name: "|24.09Mb", server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_248, server: 104.16.16.255, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_93, server: global-sakura-ru-a-01.yingyun-resolve.com, port: 2114, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: global-sakura-ru-a-01.yingyun-resolve.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_155, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_204, server: 169.197.142.47, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_207, server: 169.197.142.47, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_336, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_202, server: 169.197.142.47, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_201, server: 169.197.142.47, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_209, server: 169.197.142.47, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_339, server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
   - {name: Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v.mumi.bid}, udp: true}
-  - {name: w+138, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: w+24, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2643, server: 172.99.190.188, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: w+371, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: w+344, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_ |27.72Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_198, server: 169.197.142.47, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_199, server: 169.197.142.47, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_206, server: 169.197.142.47, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_197, server: 169.197.142.47, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_200, server: 169.197.142.47, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_424, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: ZZ_3099, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _64 |24.67Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_2851, server: 172.99.190.205, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_394, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2671 |29.37Mb, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1364, server: 172.99.190.188, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_3611, server: 134.195.196.147, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_3613, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_2834, server: 172.99.190.188, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_英国_20, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: w+84, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: w+318, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _俄罗斯联邦__31, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_419, server: 42.157.195.235, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: US_2642, server: 172.99.190.188, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: w+256, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_英国_29, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_455, server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_443, server: 120.233.10.182, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_400, server: 14.152.92.80, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: US_2757, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_393, server: 42.157.195.240, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_401, server: 14.152.92.70, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_456, server: 42.157.195.238, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_458, server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: US_2787, server: 172.99.190.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: +US_1691, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ww+132, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_461, server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: CN_382 | 2.94Mb, server: gdcm2.relay.qchwnd.moe, port: 10221, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: gdcm2.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: ZZ_3607, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ww+736+2, server: 192.53.169.116, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_419, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2744, server: 172.99.190.188, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: w+387, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: w+249, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1747, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2763 | 1.78Mb, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|18.90Mb", server: 172.99.190.188, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_3601, server: 134.195.196.147, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_3605, server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1425, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_3589, server: 134.195.196.193, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_英国_258, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_40, server: 51.255.66.185, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_992, server: 146.56.161.223, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.56.161.223}, udp: true}
+  - {name: ZZ_3121, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_2418 |20.56Mb, server: 167.88.61.5, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_184, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_89, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_70, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_88, server: global-sakura-ru-a-01.yingyun-resolve.com, port: 2113, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: global-sakura-ru-a-01.yingyun-resolve.com}, udp: true}
+  - {name: US_1381 |34.98Mb, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_203, server: 169.197.142.47, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Earth_117, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_3625, server: 134.195.196.147, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 36c84db1-7eaa-4763-bccc-e313801c0c78, sni: ca02.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_76, server: in05.dns2333.xyz, port: 63071, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: US_413, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_2992, server: 134.195.196.147, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_3101 |21.07Mb, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_3563, server: 134.195.196.147, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_271, server: 120.232.173.35, port: 10002, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_417, server: 172.99.190.188, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国阿伟科技@TG/油管 2, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_84, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: US_344, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_3579, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: w+293, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_3586, server: 134.195.196.193, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: w+402, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: w+43, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: FR_237, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
+  - {name: _70 |24.62Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_53, server: 172.105.187.158, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_2799, server: v1.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: US_1425, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_77, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: Earth_108, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_80, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: US_888, server: 172.99.190.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -440,428 +440,432 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 台湾阿伟科技@TG/油管 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -877,106 +881,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - JP_791 |212.95Mb
-      - Relay_🇨🇳CN-🇯🇵JP_438
       - Relay_🇨🇳CN-🇵🇭PH_297 |32.31Mb
-      - EE_427 | 8.81Mb
-      - Relay_ |10.24Mb
-      - Relay_🇨🇳CN-🇬🇧GB_429
-      - JP_787 |291.38Mb
-      - Relay_ |45.47Mb
-      - Relay_🇨🇳CN-🇯🇵JP_385
-      - Relay_🇨🇳CN-🇯🇵JP_417
-      - JP_785 |205.29Mb
-      - "| 6.14Mb"
-      - Relay_🇨🇳CN-🇷🇴RO_439
-      - Relay_🇨🇳CN-🇯🇵JP_447
-      - Relay_🇨🇳CN-🇯🇵JP_452
+      - ♥️♥️YouTube梦歌♥️♥️_131
+      - ♥️♥️YouTube梦歌♥️♥️_264
+      - 香港阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_78
+      - Relay_🇺🇸US-🇭🇰HK_2872
       - 美国阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇺🇸US_432
-      - Relay_ |53.37Mb
-      - Relay_🇨🇳CN-🇬🇧GB_421
-      - Relay_🇨🇳CN-🇺🇸US_445
-      - Relay_🇨🇳CN-🇸🇬SG_444
-      - Relay_🇨🇳CN-🇺🇸US_430
-      - Relay_🇨🇳CN-🇺🇸US_454
-      - Relay_🇨🇳CN-🇸🇬SG_441
-      - Relay_🇸🇬SG-🇩🇪DE_826
-      - US_2781
-      - Relay_🇨🇳CN-🇺🇸US_384
-      - Relay_🇨🇳CN-🇺🇸US_415
-      - US_2846
-      - w+277
-      - w+99
-      - Relay_🇸🇬SG-🇬🇧GB_822
-      - FR_237
-      - w+355
-      - w+140
+      - 韩国阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管
+      - US_2790
+      - ♥️♥️YouTube梦歌♥️♥️_257
+      - ♥️♥️YouTube梦歌♥️♥️_227
+      - ♥️♥️YouTube梦歌♥️♥️_134
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - 日本阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_74
+      - w 390
+      - EE_427 | 8.81Mb
+      - 台湾阿伟科技@TG/油管 4
       - w_15
-      - US_2807
-      - 印度阿伟科技@TG/油管
-      - Relay_🇨🇳CN-🇬🇧GB_442
-      - _70 |24.62Mb
-      - US_2849
-      - US_2847
-      - "|19.34Mb"
-      - US_2741
+      - Relay_🇨🇳CN-🇨🇦CA_411
+      - Relay_🇨🇳CN-🇭🇰HK_330
+      - TW_340
+      - Relay_🇸🇬SG-🇸🇬SG_1274
+      - ♥️♥️YouTube梦歌♥️♥️_268
+      - ♥️♥️YouTube梦歌♥️♥️_83
+      - Relay_🇯🇵JP-🇯🇵JP_684
+      - Relay_ |53.37Mb
+      - ♥️♥️YouTube梦歌♥️♥️_31
+      - ♥️♥️YouTube梦歌♥️♥️_67
+      - Relay_🇨🇳CN-🇸🇬SG_421
       - Relay_ |46.62Mb
-      - Relay_🇨🇳CN-🇩🇪DE_424
-      - w+344
+      - ♥️♥️YouTube梦歌♥️♥️_99
+      - ♥️♥️YouTube梦歌♥️♥️_225
+      - ♥️♥️YouTube梦歌♥️♥️_267
+      - Relay_🇨🇳CN-🇺🇸US_445
+      - Relay_🇨🇳CN-🇺🇸US_415
+      - 美国阿伟科技@TG/油管 2
+      - Relay_🇨🇳CN-🇺🇸US_384
+      - "|24.09Mb"
+      - ♥️♥️YouTube梦歌♥️♥️_248
+      - ♥️♥️YouTube梦歌♥️♥️_93
+      - ♥️♥️YouTube梦歌♥️♥️_155
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_207
+      - Relay_🇨🇳CN-🇭🇰HK_336
+      - ♥️♥️YouTube梦歌♥️♥️_202
+      - ♥️♥️YouTube梦歌♥️♥️_201
+      - ♥️♥️YouTube梦歌♥️♥️_209
+      - Relay_🇨🇳CN-🇺🇸US_339
       - Relay_🇯🇵JP-🇯🇵JP_768 |17.46Mb
-      - w+138
-      - w+24
-      - US_2643
-      - w+371
+      - w+344
+      - Relay_ |27.72Mb
+      - ♥️♥️YouTube梦歌♥️♥️_198
+      - ♥️♥️YouTube梦歌♥️♥️_199
+      - ♥️♥️YouTube梦歌♥️♥️_206
+      - ♥️♥️YouTube梦歌♥️♥️_197
+      - ♥️♥️YouTube梦歌♥️♥️_200
+      - Relay_🇨🇳CN-🇩🇪DE_424
+      - ZZ_3099
       - _64 |24.67Mb
-      - US_2851
-      - US_394
-      - ZZ_2671 |29.37Mb
-      - US_1364
-      - ZZ_3611
-      - ZZ_3613
-      - US_2834
-      - Ytb:鹏哥分享_英国_20
-      - w+84
-      - w+318
-      - _俄罗斯联邦__31
-      - Relay_🇨🇳CN-🇺🇸US_419
-      - US_2642
-      - w+256
-      - Ytb:鹏哥分享_英国_29
-      - Relay_🇨🇳CN-🇯🇵JP_455
-      - Relay_🇨🇳CN-🇯🇵JP_443
-      - Relay_🇨🇳CN-🇯🇵JP_400
-      - US_2757
-      - Relay_🇨🇳CN-🇺🇸US_393
-      - Relay_🇨🇳CN-🇺🇸US_401
-      - Relay_🇨🇳CN-🇺🇸US_456
-      - Relay_🇨🇳CN-🇺🇸US_458
-      - US_2787
-      - +US_1691
-      - ww+132
-      - Relay_🇨🇳CN-🇯🇵JP_461
-      - CN_382 | 2.94Mb
-      - ZZ_3607
-      - ww+736+2
-      - US_419
-      - US_2744
-      - w+387
-      - w+249
-      - US_1747
-      - ZZ_2763 | 1.78Mb
-      - "|18.90Mb"
-      - ZZ_3601
-      - ZZ_3605
-      - US_1425
-      - ZZ_3589
-      - Ytb:鹏哥分享_英国_258
+      - 法国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_40
+      - JP_992
+      - ZZ_3121
+      - US_2418 |20.56Mb
+      - ♥️♥️YouTube梦歌♥️♥️_184
+      - Relay_🇺🇸US-🇺🇸US_89
+      - ♥️♥️YouTube梦歌♥️♥️_70
+      - ♥️♥️YouTube梦歌♥️♥️_88
+      - US_1381 |34.98Mb
+      - ♥️♥️YouTube梦歌♥️♥️_203
+      - Earth_117
+      - ZZ_3625
+      - 加拿大阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_76
+      - US_413
+      - ZZ_2992
+      - ZZ_3101 |21.07Mb
+      - ZZ_3563
+      - ♥️♥️YouTube梦歌♥️♥️_271
+      - US_417
+      - 法国阿伟科技@TG/油管 2
+      - Relay_🇺🇸US-🇷🇺RU_84
+      - US_344
+      - ZZ_3579
       - w+293
-      - ZZ_3586
-      - w+402
-      - w+43
+      - 德国阿伟科技@TG/油管
+      - FR_237
+      - _70 |24.62Mb
+      - ♥️♥️YouTube梦歌♥️♥️_53
+      - US_2799
+      - US_1425
+      - Relay_🇺🇸US-🇷🇺RU_77
+      - Earth_108
+      - Relay_🇺🇸US-🇷🇺RU_80
+      - US_888
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
