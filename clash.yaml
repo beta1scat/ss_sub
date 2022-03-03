@@ -5,487 +5,491 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ♥️YouTube梦歌♥️_122, server: iplc.gs1024.com, port: 61780, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [iplc.gs1024.com]}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_123, server: g1.gs1024.com, port: 60195, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g1.gs1024.com]}, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|25.98Mb", server: 141.164.57.134, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: ♥️YouTube梦歌♥️_143, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_104, server: 193.110.203.58, port: 36258, type: vmess, uuid: 16d956e1-9bc0-4bd4-e123-bab79b40a3b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 193.110.203.58}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_125, server: g2.gs1024.com, port: 20785, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g2.gs1024.com]}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 3, server: pmhz.wokuaitule.xyz, port: 20004, type: vmess, uuid: 156a3437-a9e7-3358-9d0d-f04229ab0e44, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 4, server: 125.wowogg.cyou, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_124, server: g2.gs1024.com, port: 20778, type: vmess, uuid: 939b8c74-3499-3dab-b092-3bb05fb2f259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: h2, h2-opts: {path: /, host: [g2.gs1024.com]}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_142, server: fq.0112391.xyz, port: 12226, type: trojan, password: 1qaz2wsx, sni: fq.0112391.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_108, server: 141.164.57.134, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_106, server: 172.105.59.32, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 日本阿伟科技@TG/油管 5, server: 83.wowogg.cyou, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_101, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_41, server: 192.46.209.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️YouTube梦歌♥️_141, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_32, server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_62, server: 93.wowogg.cyou, port: 52293, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_3, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 6, server: 121.wowogg.cyou, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_224, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ♥️YouTube梦歌♥️_285, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️YouTube梦歌♥️_286, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_280, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️YouTube梦歌♥️_11, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_16, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_282, server: 38.114.114.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️YouTube梦歌♥️_30, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_289, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️YouTube梦歌♥️_223, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️YouTube梦歌♥️_4, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_14, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️YouTube梦歌♥️_91, server: 169.197.142.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️YouTube梦歌♥️_281, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️YouTube梦歌♥️_60, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_92, server: 169.197.142.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️YouTube梦歌♥️_9, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️YouTube梦歌♥️_30 2, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_313, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_53, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️YouTube梦歌♥️_74, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ♥️YouTube梦歌♥️_86, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_26, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_330, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 日本阿伟科技@TG/油管 7, server: 0227jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_90, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_5, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_84, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️YouTube梦歌♥️_88, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_64, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_85, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_57, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_68, server: 38.68.134.23, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️YouTube梦歌♥️_18, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️YouTube梦歌♥️_31, server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️YouTube梦歌♥️_61, server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️YouTube梦歌♥️_73, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️YouTube梦歌♥️_89, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_221, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_105, server: 38.64.138.145, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️YouTube梦歌♥️_89 2, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️YouTube梦歌♥️_25, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️YouTube梦歌♥️_78, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️YouTube梦歌♥️_18 2, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️YouTube梦歌♥️_69, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️YouTube梦歌♥️_327, server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_85 2, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_77, server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️YouTube梦歌♥️_50, server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️YouTube梦歌♥️_76, server: 134.195.196.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️YouTube梦歌♥️_83, server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️YouTube梦歌♥️_82, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️YouTube梦歌♥️_81, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_121, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "|11.35Mb", server: 192.46.209.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|11.06Mb", server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|12.82Mb", server: 192.46.209.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|38.65Mb", server: 192.46.209.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 9.43Mb", server: 192.46.209.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "| 7.42Mb", server: 192.46.209.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|32.33Mb", server: 192.46.209.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|16.08Mb", server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "|33.04Mb", server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "| 9.07Mb", server: 38.143.66.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|15.24Mb", server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA_204 |55.76Mb, server: 198.57.27.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_ |213.31Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_124, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 6.86Mb", server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 9.27Mb", server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "| 4.37Mb", server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|14.51Mb", server: 38.143.66.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|10.67Mb", server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|11.43Mb", server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "| 4.59Mb", server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 4.08Mb", server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CN_340 | 4.78Mb, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "|17.20Mb", server: 142.202.48.83, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_3631 |158.98Mb, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|14.98Mb", server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|19.78Mb", server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 9.33Mb", server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|12.19Mb", server: 38.91.100.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|16.67Mb", server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_3643 |169.14Mb, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|11.91Mb", server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.33Mb", server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|11.81Mb", server: 38.143.66.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_907 | 9.84Mb, server: jp-do-zz.licom.ga, port: 27373, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: jp-do-zz.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: ZZ_3642 |169.65Mb, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 2.11Mb", server: 51.38.112.84, port: 44, type: ss, cipher: aes-256-cfb, password: instgram.com/openvpnssh, plugin: obfs, plugin-opts: {mode: http, host: 51.38.112.84}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2530, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: "| 6.01Mb", server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|45.08Mb", server: 192.46.209.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|20.65Mb", server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_3634 |159.41Mb, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 6.35Mb", server: 38.143.66.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_2881, server: 169.197.141.92, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.58Mb", server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|12.87Mb", server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|16.96Mb", server: 192.46.209.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3647 |162.98Mb, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|18.77Mb", server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|13.33Mb", server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.72Mb", server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_3633 |175.45Mb, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_3641 |61.19Mb, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3645 |136.24Mb, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|22.24Mb", server: 192.46.209.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|10.51Mb", server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "| 6.80Mb", server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|18.74Mb", server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|20.56Mb", server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|20.46Mb", server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|14.90Mb", server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.45Mb", server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|14.33Mb", server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_3646 |158.34Mb, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|20.33Mb", server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|17.96Mb", server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_3567 |19.79Mb, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.46Mb 2", server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: ♥️YouTube梦歌♥️_63, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_94, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 7.earths.team, port: 443, type: trojan, password: cd1561db-c5b3-4e37-960d-39825cae663c, sni: 7.earths.team, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_16 2, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️YouTube梦歌♥️_124 2, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_76 2, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_80, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_321, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_14 2, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_20, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: ♥️YouTube梦歌♥️_333, server: 167.88.61.175, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️YouTube梦歌♥️_231, server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️YouTube梦歌♥️_326, server: 167.88.61.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_53 2, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ♥️YouTube梦歌♥️_62 2, server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️YouTube梦歌♥️_329, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_54, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️YouTube梦歌♥️_6, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_79, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_88 2, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️YouTube梦歌♥️_331, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️YouTube梦歌♥️_170, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️YouTube梦歌♥️_40, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️YouTube梦歌♥️_80 2, server: 38.86.135.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️YouTube梦歌♥️_70, server: 38.91.100.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️YouTube梦歌♥️_212, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️YouTube梦歌♥️_24, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_3644 |19.83Mb, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.83Mb", server: 169.197.141.92, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ♥️YouTube梦歌♥️_16, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_3635 |163.33Mb, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|14.77Mb", server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3573 |20.00Mb, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.43Mb", server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 6.67Mb", server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "| 4.86Mb", server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 9.51Mb", server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|10.64Mb", server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|21.91Mb", server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|10.18Mb", server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2791, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_3608 |159.75Mb, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: ♥️YouTube梦歌♥️_10, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️YouTube梦歌♥️_23, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️YouTube梦歌♥️_200, server: 52.175.62.234, port: 10853, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_37, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️YouTube梦歌♥️_322, server: 167.88.61.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️YouTube梦歌♥️_48, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_14 3, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_65, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️YouTube梦歌♥️_57 2, server: 38.91.100.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_108 2, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️YouTube梦歌♥️_171, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8ce46aae-dae5-4d50-ebcd-f9514e4c048a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
-  - {name: 荷兰阿伟科技@TG/油管, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_66, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️YouTube梦歌♥️_230, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|11.72Mb", server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_3636 |129.57Mb, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb, server: gz1.52168.xyz, port: 1103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "| 5.57Mb", server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "|15.89Mb", server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_3639 |161.77Mb, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Relay_ | 4.64Mb, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "|18.86Mb", server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 7.62Mb", server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_ | 9.93Mb, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "|13.26Mb", server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 6.46Mb", server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_ |11.36Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_66, server: 167.88.63.79, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_3640 |167.80Mb, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_3632 |171.74Mb, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_3638 |167.37Mb, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ♥️YouTube梦歌♥️_146, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|16.38Mb", server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|13.29Mb", server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_ | 2.38Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "| 7.61Mb", server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_3602 |60.50Mb, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: 0227jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: "| 5.49Mb", server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1845, server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Pool_ | 4.79Mb, server: 158.58.173.240, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -504,122 +508,123 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -630,365 +635,368 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1004,122 +1012,123 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️YouTube梦歌♥️_122
-      - ♥️YouTube梦歌♥️_123
-      - 日本阿伟科技@TG/油管
+      - "|25.98Mb"
       - ♥️YouTube梦歌♥️_143
-      - ♥️YouTube梦歌♥️_104
-      - ♥️YouTube梦歌♥️_125
-      - 日本阿伟科技@TG/油管 2
-      - 日本阿伟科技@TG/油管 3
-      - 日本阿伟科技@TG/油管 4
+      - JP_121
+      - "|11.35Mb"
+      - "|11.06Mb"
+      - "|12.82Mb"
+      - "|38.65Mb"
+      - "| 9.43Mb"
+      - "| 7.42Mb"
+      - "|32.33Mb"
+      - "|16.08Mb"
+      - "|33.04Mb"
+      - "| 9.07Mb"
+      - "|15.24Mb"
+      - CA_204 |55.76Mb
+      - Relay_ |213.31Mb
       - ♥️YouTube梦歌♥️_124
-      - ♥️YouTube梦歌♥️_142
-      - ♥️YouTube梦歌♥️_108
-      - ♥️YouTube梦歌♥️_106
-      - 日本阿伟科技@TG/油管 5
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_41
-      - ♥️YouTube梦歌♥️_141
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_3
-      - 日本阿伟科技@TG/油管 6
-      - ♥️YouTube梦歌♥️_224
-      - ♥️YouTube梦歌♥️_285
-      - ♥️YouTube梦歌♥️_286
-      - ♥️YouTube梦歌♥️_280
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_282
-      - ♥️YouTube梦歌♥️_30
-      - ♥️YouTube梦歌♥️_289
-      - ♥️YouTube梦歌♥️_223
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_91
-      - ♥️YouTube梦歌♥️_281
-      - ♥️YouTube梦歌♥️_60
-      - ♥️YouTube梦歌♥️_92
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_30 2
-      - ♥️YouTube梦歌♥️_313
-      - ♥️YouTube梦歌♥️_53
-      - ♥️YouTube梦歌♥️_74
-      - ♥️YouTube梦歌♥️_86
-      - ♥️YouTube梦歌♥️_26
-      - ♥️YouTube梦歌♥️_330
-      - 日本阿伟科技@TG/油管 7
-      - ♥️YouTube梦歌♥️_90
-      - 美国阿伟科技@TG/油管
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_84
-      - ♥️YouTube梦歌♥️_88
-      - ♥️YouTube梦歌♥️_64
-      - ♥️YouTube梦歌♥️_85
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_68
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_73
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_221
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_89 2
-      - ♥️YouTube梦歌♥️_25
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_18 2
-      - ♥️YouTube梦歌♥️_69
-      - ♥️YouTube梦歌♥️_327
-      - ♥️YouTube梦歌♥️_85 2
-      - ♥️YouTube梦歌♥️_77
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_83
-      - ♥️YouTube梦歌♥️_82
-      - ♥️YouTube梦歌♥️_81
+      - "| 6.86Mb"
+      - "| 9.27Mb"
+      - "| 4.37Mb"
+      - "|14.51Mb"
+      - "|10.67Mb"
+      - "|11.43Mb"
+      - "| 4.59Mb"
+      - "| 4.08Mb"
+      - CN_340 | 4.78Mb
+      - "|17.20Mb"
+      - ZZ_3631 |158.98Mb
+      - "|14.98Mb"
+      - "|19.78Mb"
+      - "| 9.33Mb"
+      - "|12.19Mb"
+      - "|16.67Mb"
+      - ZZ_3643 |169.14Mb
+      - "|11.91Mb"
+      - "|11.33Mb"
+      - "|11.81Mb"
+      - JP_907 | 9.84Mb
+      - ZZ_3642 |169.65Mb
+      - "| 2.11Mb"
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - "| 6.01Mb"
+      - "|45.08Mb"
+      - "|20.65Mb"
+      - ZZ_3634 |159.41Mb
+      - "| 6.35Mb"
+      - ZZ_2881
+      - "|20.58Mb"
+      - "|12.87Mb"
+      - "|16.96Mb"
+      - ZZ_3647 |162.98Mb
+      - "|18.77Mb"
+      - "|13.33Mb"
+      - "|20.72Mb"
+      - ZZ_3633 |175.45Mb
+      - ZZ_3641 |61.19Mb
+      - ZZ_3645 |136.24Mb
+      - "|22.24Mb"
+      - "|10.51Mb"
+      - "| 6.80Mb"
+      - "|18.74Mb"
+      - "|20.56Mb"
+      - "|20.46Mb"
+      - "|14.90Mb"
+      - "|20.45Mb"
+      - "|14.33Mb"
+      - ZZ_3646 |158.34Mb
+      - "|20.33Mb"
+      - "|17.96Mb"
+      - ZZ_3567 |19.79Mb
+      - "|20.46Mb 2"
       - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_94
-      - 美国阿伟科技@TG/油管 2
-      - ♥️YouTube梦歌♥️_16 2
-      - ♥️YouTube梦歌♥️_124 2
-      - ♥️YouTube梦歌♥️_76 2
-      - ♥️YouTube梦歌♥️_80
-      - ♥️YouTube梦歌♥️_321
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_20
       - ♥️YouTube梦歌♥️_333
-      - ♥️YouTube梦歌♥️_231
-      - ♥️YouTube梦歌♥️_326
-      - ♥️YouTube梦歌♥️_53 2
-      - ♥️YouTube梦歌♥️_62 2
-      - ♥️YouTube梦歌♥️_329
-      - ♥️YouTube梦歌♥️_54
-      - ♥️YouTube梦歌♥️_6
-      - ♥️YouTube梦歌♥️_79
-      - ♥️YouTube梦歌♥️_88 2
-      - ♥️YouTube梦歌♥️_331
-      - ♥️YouTube梦歌♥️_170
-      - ♥️YouTube梦歌♥️_40
-      - ♥️YouTube梦歌♥️_80 2
-      - ♥️YouTube梦歌♥️_70
-      - ♥️YouTube梦歌♥️_212
-      - ♥️YouTube梦歌♥️_24
+      - ZZ_3644 |19.83Mb
+      - "|20.83Mb"
+      - ♥️YouTube梦歌♥️_16
+      - ZZ_3635 |163.33Mb
+      - "|14.77Mb"
+      - ZZ_3573 |20.00Mb
+      - "|20.43Mb"
+      - "| 6.67Mb"
+      - "| 4.86Mb"
+      - "| 9.51Mb"
+      - "|10.64Mb"
+      - "|21.91Mb"
+      - "|10.18Mb"
+      - ZZ_2791
+      - ZZ_3608 |159.75Mb
       - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_23
-      - ♥️YouTube梦歌♥️_200
-      - ♥️YouTube梦歌♥️_37
-      - ♥️YouTube梦歌♥️_322
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_14 3
-      - ♥️YouTube梦歌♥️_65
-      - ♥️YouTube梦歌♥️_57 2
-      - ♥️YouTube梦歌♥️_108 2
-      - ♥️YouTube梦歌♥️_171
-      - 荷兰阿伟科技@TG/油管
+      - "|11.72Mb"
+      - ZZ_3636 |129.57Mb
+      - Relay_🇨🇳CN-🇮🇩ID_329 |22.84Mb
+      - "| 5.57Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_275 | 2.19Mb
+      - "|15.89Mb"
+      - ZZ_3639 |161.77Mb
+      - Relay_ | 4.64Mb
+      - "|18.86Mb"
+      - "| 7.62Mb"
+      - Relay_ | 9.93Mb
+      - "|13.26Mb"
+      - "| 6.46Mb"
+      - Relay_ |11.36Mb
       - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_230
+      - ZZ_3640 |167.80Mb
+      - ZZ_3632 |171.74Mb
+      - ZZ_3638 |167.37Mb
+      - ♥️YouTube梦歌♥️_146
+      - "|16.38Mb"
+      - "|13.29Mb"
+      - Relay_ | 2.38Mb
+      - "| 7.61Mb"
+      - ZZ_3602 |60.50Mb
+      - 日本阿伟科技@TG/油管
+      - "| 5.49Mb"
+      - US_1845
+      - Pool_ | 4.79Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
